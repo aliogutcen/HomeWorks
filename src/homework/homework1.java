@@ -15,7 +15,7 @@ public class homework1 {
 			
 			System.out.println("Hoşgeldiniz ");
 			System.out.print("Kilonuzu Giriniz= ");
-		float kilo= scanner.nextFloat();
+			float kilo= scanner.nextFloat();
 			
 			float dunyaCekimi=9.8f, ayCekimi=1.62f, marsCekimi=3.72f, venusCekimi=8.87f, saturnCekimi=14.44f;
 			
