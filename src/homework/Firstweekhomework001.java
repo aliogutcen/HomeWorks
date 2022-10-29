@@ -1,6 +1,6 @@
 package homework;
 import java.util.Scanner;
-public class homework1 {
+public class Firstweekhomework001 {
 
 	public static void main(String[] args) {
 		Scanner scanner= new Scanner(System.in);

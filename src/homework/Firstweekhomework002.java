@@ -1,6 +1,6 @@
 package homework;
 import java.util.Scanner;
-public class homework2 {
+public class Firstweekhomework002 {
 
 	public static void main(String[] args) {
 		// BMI Hesaplama
