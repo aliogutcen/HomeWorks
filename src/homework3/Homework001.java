@@ -4,25 +4,20 @@ public class Homework001 {
 
 	public static void main(String[] args) {
 
-		int nums[] = { 1, 13, 13,15,12,13, 2, 5, 13, 1 };
+		int nums[] = {1, 13, 13, 13, 2, 5, 13, 1};
 		int toplam = 0;
 		for (int i = 0; i < nums.length; i++) {
-			
-			
-			
-			
+
 			if (nums[i] == 13) {
 				i++;
-				while(nums[i]==13) {
+				while (nums[i] == 13) {
 					i++;
 				}
-				
-			}
-			else
+
+			} else
 				toplam = toplam + nums[i];
-			
-		
+
+		}
+		System.out.println(toplam);
 	}
-System.out.println(toplam);
-}
 }
