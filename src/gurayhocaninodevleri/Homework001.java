@@ -14,7 +14,10 @@ public class Homework001 {
 		for (int a = j.length() - 1; a >= 0; a--) {
 			System.out.print(j.charAt(a));
 		}
-
+		
+		String name="kerem";
+		int a= Integer.parseInt(name);
+System.out.println(a);
 	}
 
 }
