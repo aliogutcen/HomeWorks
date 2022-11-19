@@ -118,14 +118,13 @@ public class Employee {
 	
 		public void employyeInfo() {
 		System.out.println("Name= "+this.name);
-		System.out.println("Salary= "+salary);
 		System.out.println("Hire Year= "+this.hireYear);
 		System.out.println("*******");
+		System.out.println("Salary= "+salary);
 		System.out.println("Tax="+this.tax);
 		System.out.println("Bonus= "+this.bonus);
 		System.out.println("Salary Raise="+this.salaryRaise);
 		System.out.println("Your salary after bonuses= "+salaryBonus());
 	}
-	
-	
+
 }
