@@ -156,7 +156,7 @@ public class Televizyon {
 	public void sesAzalt() {
 
 		if (tvKurulumu == true) {
-			if (tvAcikMi == true) {
+			if (tvAcikMi == true) {			
 				if (this.ses > 0) {
 					this.ses--;
 					System.out.println("Ses azaltıldı= " + this.ses);
